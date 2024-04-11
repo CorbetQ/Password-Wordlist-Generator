@@ -1,0 +1,22 @@
+from os import system
+
+def wordlist():
+    print(" _____________________________ ")
+    print("| Password Wordlist Generator |")
+    print("| * If no answer press ENTER  |")
+    print("| * Date Format : DD-MM-YYYY  |")
+    print("|_____________________________|")
+    firstname    = input("Your first name         : ")
+    secondname   = input("Your second name        : ")
+    thirdname    = input("Your third name         : ")
+    familyname   = input("Your family name        : ")
+    surname      = input("Your surname            : ")
+    birthdaydate = input("Your birthday date      : ")
+    age          = input("Your age                : ")
+    department   = input("Your department (nb)    : ")
+    country      = input("Your country            : ")
+    partner_name = input("Your partner's name     : ")
+    partner_fname= input("Your partner's f. name  : ")
+    partner_sname= input("Your partner's surname  : ")
+    partner_birth= input("Your partner's birthday : ")
+wordlist()
