@@ -19,4 +19,8 @@ def wordlist():
     partner_fname= input("Your partner's f. name  : ")
     partner_sname= input("Your partner's surname  : ")
     partner_birth= input("Your partner's birthday : ")
+    kid_name     = input("Your kid's name         : ")
+    kid_birthday = input("Your kid's birthday     : ")
+    gender       = input("Your gender             : ")
+    company      = input("Your company's name     : ")
 wordlist()
